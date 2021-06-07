@@ -45,7 +45,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: mediawiki:3.9-apache
+      - image: mediawiki:1.36.0 
         name: mediawiki
         env:
         - name: MEDIAWIKI_DB_HOST
